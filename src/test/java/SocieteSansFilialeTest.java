@@ -8,8 +8,9 @@ public void ajoutDeuxVehicules(){
     Societe societe1 = new SocieteSansFiliale();
     societe1.ajouteVehicule();
     societe1.ajouteVehicule();
-    assertEquals("Deux vehicules",2,societe1.getVehicules());
+    assertEquals("Deux vehicules",2,societe1.getNbreVehicule());
     }
+
 @Test
 public void calculeCoutEntretienDeuxVehicules(){
     Societe societe1 = new SocieteSansFiliale();
