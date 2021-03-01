@@ -7,7 +7,7 @@ public class SocieteMere extends Societe{
 
     @Override
     public double calculeCoutEntretien() {
-        return getNbreVehicule() * COUTPARVEHICULE;
+        return  getNbreVehicule() * COUTPARVEHICULE;
     }
 
     @Override

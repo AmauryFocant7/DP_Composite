@@ -1,6 +1,7 @@
 public abstract class Societe {
     protected int nbreVehicule;
     protected final double COUTPARVEHICULE = 5.0;
+
     protected double CoutEntretien;
     public void ajouteVehicule()
     {
